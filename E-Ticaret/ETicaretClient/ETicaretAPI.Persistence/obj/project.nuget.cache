@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uhHf9l2c3PE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\samun\\Desktop\\MyProject\\E-Ticaret\\ETicaretClient\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\samun\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

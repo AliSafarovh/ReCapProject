@@ -1,0 +1,17 @@
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Services\bin\Debug\net8.0\LibraryApi.Services.deps.json
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Services\bin\Debug\net8.0\LibraryApi.Services.runtimeconfig.json
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Services\bin\Debug\net8.0\LibraryApi.Services.dll
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Services\bin\Debug\net8.0\LibraryApi.Services.pdb
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Services\obj\Debug\net8.0\LibraryApi.Services.csproj.AssemblyReference.cache
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Services\obj\Debug\net8.0\LibraryApi.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Services\obj\Debug\net8.0\LibraryApi.Services.AssemblyInfoInputs.cache
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Services\obj\Debug\net8.0\LibraryApi.Services.AssemblyInfo.cs
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Services\obj\Debug\net8.0\LibraryApi.Services.csproj.CoreCompileInputs.cache
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Services\obj\Debug\net8.0\LibraryApi.Services.dll
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Services\obj\Debug\net8.0\refint\LibraryApi.Services.dll
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Services\obj\Debug\net8.0\LibraryApi.Services.pdb
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Services\obj\Debug\net8.0\LibraryApi.Services.genruntimeconfig.cache
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Services\obj\Debug\net8.0\ref\LibraryApi.Services.dll
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Services\bin\Debug\net8.0\LibraryApi.Data.dll
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Services\bin\Debug\net8.0\LibraryApi.Data.pdb
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Services\obj\Debug\net8.0\LibraryA.B0ECB066.Up2Date

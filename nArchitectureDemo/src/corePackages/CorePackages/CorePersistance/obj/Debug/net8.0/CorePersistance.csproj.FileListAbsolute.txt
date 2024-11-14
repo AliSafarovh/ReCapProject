@@ -1,0 +1,13 @@
+C:\Users\samun\Desktop\MyProject\API\nArchitectureDemo\src\corePackages\CorePackages\CorePersistance\bin\Debug\net8.0\CorePersistance.deps.json
+C:\Users\samun\Desktop\MyProject\API\nArchitectureDemo\src\corePackages\CorePackages\CorePersistance\bin\Debug\net8.0\CorePersistance.dll
+C:\Users\samun\Desktop\MyProject\API\nArchitectureDemo\src\corePackages\CorePackages\CorePersistance\bin\Debug\net8.0\CorePersistance.pdb
+C:\Users\samun\Desktop\MyProject\API\nArchitectureDemo\src\corePackages\CorePackages\CorePersistance\obj\Debug\net8.0\CorePersistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samun\Desktop\MyProject\API\nArchitectureDemo\src\corePackages\CorePackages\CorePersistance\obj\Debug\net8.0\CorePersistance.AssemblyInfoInputs.cache
+C:\Users\samun\Desktop\MyProject\API\nArchitectureDemo\src\corePackages\CorePackages\CorePersistance\obj\Debug\net8.0\CorePersistance.AssemblyInfo.cs
+C:\Users\samun\Desktop\MyProject\API\nArchitectureDemo\src\corePackages\CorePackages\CorePersistance\obj\Debug\net8.0\CorePersistance.csproj.CoreCompileInputs.cache
+C:\Users\samun\Desktop\MyProject\API\nArchitectureDemo\src\corePackages\CorePackages\CorePersistance\obj\Debug\net8.0\CorePersistance.sourcelink.json
+C:\Users\samun\Desktop\MyProject\API\nArchitectureDemo\src\corePackages\CorePackages\CorePersistance\obj\Debug\net8.0\CorePersistance.dll
+C:\Users\samun\Desktop\MyProject\API\nArchitectureDemo\src\corePackages\CorePackages\CorePersistance\obj\Debug\net8.0\refint\CorePersistance.dll
+C:\Users\samun\Desktop\MyProject\API\nArchitectureDemo\src\corePackages\CorePackages\CorePersistance\obj\Debug\net8.0\CorePersistance.pdb
+C:\Users\samun\Desktop\MyProject\API\nArchitectureDemo\src\corePackages\CorePackages\CorePersistance\obj\Debug\net8.0\ref\CorePersistance.dll
+C:\Users\samun\Desktop\MyProject\API\nArchitectureDemo\src\corePackages\CorePackages\CorePersistance\obj\Debug\net8.0\CorePersistance.csproj.AssemblyReference.cache

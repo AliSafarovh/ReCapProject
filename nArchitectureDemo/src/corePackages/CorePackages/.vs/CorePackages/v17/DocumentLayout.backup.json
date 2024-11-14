@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\corePackages\\CorePackages\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{25798079-1A40-48A7-81EF-14D833FC5C70}|Core.Application\\Core.Application.csproj|c:\\users\\samun\\desktop\\myproject\\api\\narchitecturedemo\\src\\corepackages\\corepackages\\core.application\\pipelines\\caching\\cacheremovingbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25798079-1A40-48A7-81EF-14D833FC5C70}|Core.Application\\Core.Application.csproj|solutionrelative:core.application\\pipelines\\caching\\cacheremovingbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25798079-1A40-48A7-81EF-14D833FC5C70}|Core.Application\\Core.Application.csproj|c:\\users\\samun\\desktop\\myproject\\api\\narchitecturedemo\\src\\corepackages\\corepackages\\core.application\\pipelines\\caching\\icacheremoverrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25798079-1A40-48A7-81EF-14D833FC5C70}|Core.Application\\Core.Application.csproj|solutionrelative:core.application\\pipelines\\caching\\icacheremoverrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25798079-1A40-48A7-81EF-14D833FC5C70}|Core.Application\\Core.Application.csproj|c:\\users\\samun\\desktop\\myproject\\api\\narchitecturedemo\\src\\corepackages\\corepackages\\core.application\\pipelines\\caching\\cachingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25798079-1A40-48A7-81EF-14D833FC5C70}|Core.Application\\Core.Application.csproj|solutionrelative:core.application\\pipelines\\caching\\cachingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25798079-1A40-48A7-81EF-14D833FC5C70}|Core.Application\\Core.Application.csproj|c:\\users\\samun\\desktop\\myproject\\api\\narchitecturedemo\\src\\corepackages\\corepackages\\core.application\\pipelines\\caching\\icacherequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25798079-1A40-48A7-81EF-14D833FC5C70}|Core.Application\\Core.Application.csproj|solutionrelative:core.application\\pipelines\\caching\\icacherequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CachingBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Application\\Pipelines\\Caching\\CachingBehavior.cs",
+              "RelativeDocumentMoniker": "Core.Application\\Pipelines\\Caching\\CachingBehavior.cs",
+              "ToolTip": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Application\\Pipelines\\Caching\\CachingBehavior.cs",
+              "RelativeToolTip": "Core.Application\\Pipelines\\Caching\\CachingBehavior.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAiwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T08:16:33.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CacheRemovingBehaviour.cs",
+              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Application\\Pipelines\\Caching\\CacheRemovingBehaviour.cs",
+              "RelativeDocumentMoniker": "Core.Application\\Pipelines\\Caching\\CacheRemovingBehaviour.cs",
+              "ToolTip": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Application\\Pipelines\\Caching\\CacheRemovingBehaviour.cs",
+              "RelativeToolTip": "Core.Application\\Pipelines\\Caching\\CacheRemovingBehaviour.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvxEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T07:59:10.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICacheRequest.cs",
+              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Application\\Pipelines\\Caching\\ICacheRequest.cs",
+              "RelativeDocumentMoniker": "Core.Application\\Pipelines\\Caching\\ICacheRequest.cs",
+              "ToolTip": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Application\\Pipelines\\Caching\\ICacheRequest.cs",
+              "RelativeToolTip": "Core.Application\\Pipelines\\Caching\\ICacheRequest.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAewBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T07:58:23.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICacheRemoverRequest.cs",
+              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Application\\Pipelines\\Caching\\ICacheRemoverRequest.cs",
+              "RelativeDocumentMoniker": "Core.Application\\Pipelines\\Caching\\ICacheRemoverRequest.cs",
+              "ToolTip": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Application\\Pipelines\\Caching\\ICacheRemoverRequest.cs",
+              "RelativeToolTip": "Core.Application\\Pipelines\\Caching\\ICacheRemoverRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T07:58:10.252Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 127,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

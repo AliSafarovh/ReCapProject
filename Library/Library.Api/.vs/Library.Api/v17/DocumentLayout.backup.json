@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\samun\\Desktop\\MyProject\\API\\Library\\Library.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4F7118E-1869-4BF4-82BC-26295E56AA2E}|Library.Api.csproj|c:\\users\\samun\\desktop\\myproject\\api\\library\\library.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4F7118E-1869-4BF4-82BC-26295E56AA2E}|Library.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4F7118E-1869-4BF4-82BC-26295E56AA2E}|Library.Api.csproj|c:\\users\\samun\\desktop\\myproject\\api\\library\\library.api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4F7118E-1869-4BF4-82BC-26295E56AA2E}|Library.Api.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4F7118E-1869-4BF4-82BC-26295E56AA2E}|Library.Api.csproj|c:\\users\\samun\\desktop\\myproject\\api\\library\\library.api\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4F7118E-1869-4BF4-82BC-26295E56AA2E}|Library.Api.csproj|solutionrelative:controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\samun\\Documents\\C#191\\Coder\\API.Tasks\\Lib\\LibraryApi.Services\\Implements\\FileRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\samun\\Documents\\C#191\\Coder\\API.Tasks\\Lib\\LibraryApi.Data\\DTOs\\BookDTO\\BookPostDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FileRepository.cs",
+              "DocumentMoniker": "C:\\Users\\samun\\Documents\\C#191\\Coder\\API.Tasks\\Lib\\LibraryApi.Services\\Implements\\FileRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\C#191\\Coder\\API.Tasks\\Lib\\LibraryApi.Services\\Implements\\FileRepository.cs",
+              "ToolTip": "C:\\Users\\samun\\Documents\\C#191\\Coder\\API.Tasks\\Lib\\LibraryApi.Services\\Implements\\FileRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\C#191\\Coder\\API.Tasks\\Lib\\LibraryApi.Services\\Implements\\FileRepository.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T14:33:44.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookPostDTO.cs",
+              "DocumentMoniker": "C:\\Users\\samun\\Documents\\C#191\\Coder\\API.Tasks\\Lib\\LibraryApi.Data\\DTOs\\BookDTO\\BookPostDTO.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\C#191\\Coder\\API.Tasks\\Lib\\LibraryApi.Data\\DTOs\\BookDTO\\BookPostDTO.cs",
+              "ToolTip": "C:\\Users\\samun\\Documents\\C#191\\Coder\\API.Tasks\\Lib\\LibraryApi.Data\\DTOs\\BookDTO\\BookPostDTO.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\C#191\\Coder\\API.Tasks\\Lib\\LibraryApi.Data\\DTOs\\BookDTO\\BookPostDTO.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T14:27:03.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthorController.cs",
+              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\MyProject\\API\\Library\\Library.Api\\Controllers\\AuthorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthorController.cs",
+              "ToolTip": "C:\\Users\\samun\\Desktop\\MyProject\\API\\Library\\Library.Api\\Controllers\\AuthorController.cs",
+              "RelativeToolTip": "Controllers\\AuthorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T14:16:36.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\MyProject\\API\\Library\\Library.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\samun\\Desktop\\MyProject\\API\\Library\\Library.Api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAwAAACAZmZmZmYSwBwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T14:17:28.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\MyProject\\API\\Library\\Library.Api\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\samun\\Desktop\\MyProject\\API\\Library\\Library.Api\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Controllers\\BookController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwEAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T08:14:15.443Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 127,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

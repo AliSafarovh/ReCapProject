@@ -1,0 +1,14 @@
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Data\bin\Debug\net8.0\LibraryApi.Data.deps.json
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Data\bin\Debug\net8.0\LibraryApi.Data.runtimeconfig.json
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Data\bin\Debug\net8.0\LibraryApi.Data.dll
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Data\bin\Debug\net8.0\LibraryApi.Data.pdb
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Data\obj\Debug\net8.0\LibraryApi.Data.csproj.AssemblyReference.cache
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Data\obj\Debug\net8.0\LibraryApi.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Data\obj\Debug\net8.0\LibraryApi.Data.AssemblyInfoInputs.cache
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Data\obj\Debug\net8.0\LibraryApi.Data.AssemblyInfo.cs
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Data\obj\Debug\net8.0\LibraryApi.Data.csproj.CoreCompileInputs.cache
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Data\obj\Debug\net8.0\LibraryApi.Data.dll
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Data\obj\Debug\net8.0\refint\LibraryApi.Data.dll
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Data\obj\Debug\net8.0\LibraryApi.Data.pdb
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Data\obj\Debug\net8.0\LibraryApi.Data.genruntimeconfig.cache
+C:\Users\samun\Documents\C#191\Coder\API.Tasks\Lib\LibraryApi.Data\obj\Debug\net8.0\ref\LibraryApi.Data.dll
