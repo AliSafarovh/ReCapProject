@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\corePackages\\CorePackages\\",
+  "WorkspaceRootPath": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\corePackages\\CorePackages\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25798079-1A40-48A7-81EF-14D833FC5C70}|Core.Application\\Core.Application.csproj|c:\\users\\samun\\desktop\\myproject\\api\\narchitecturedemo\\src\\corepackages\\corepackages\\core.application\\pipelines\\caching\\cacheremovingbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25798079-1A40-48A7-81EF-14D833FC5C70}|Core.Application\\Core.Application.csproj|solutionrelative:core.application\\pipelines\\caching\\cacheremovingbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1DE2F49-DB86-4529-A7D7-CAD5B86D262E}|Core.Security\\Core.Security.csproj|c:\\users\\samun\\desktop\\api-projects\\narchitecturedemo\\src\\corepackages\\corepackages\\core.security\\entities\\useroperationclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1DE2F49-DB86-4529-A7D7-CAD5B86D262E}|Core.Security\\Core.Security.csproj|solutionrelative:core.security\\entities\\useroperationclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25798079-1A40-48A7-81EF-14D833FC5C70}|Core.Application\\Core.Application.csproj|c:\\users\\samun\\desktop\\myproject\\api\\narchitecturedemo\\src\\corepackages\\corepackages\\core.application\\pipelines\\caching\\icacheremoverrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25798079-1A40-48A7-81EF-14D833FC5C70}|Core.Application\\Core.Application.csproj|solutionrelative:core.application\\pipelines\\caching\\icacheremoverrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1DE2F49-DB86-4529-A7D7-CAD5B86D262E}|Core.Security\\Core.Security.csproj|c:\\users\\samun\\desktop\\api-projects\\narchitecturedemo\\src\\corepackages\\corepackages\\core.security\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1DE2F49-DB86-4529-A7D7-CAD5B86D262E}|Core.Security\\Core.Security.csproj|solutionrelative:core.security\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25798079-1A40-48A7-81EF-14D833FC5C70}|Core.Application\\Core.Application.csproj|c:\\users\\samun\\desktop\\myproject\\api\\narchitecturedemo\\src\\corepackages\\corepackages\\core.application\\pipelines\\caching\\cachingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25798079-1A40-48A7-81EF-14D833FC5C70}|Core.Application\\Core.Application.csproj|solutionrelative:core.application\\pipelines\\caching\\cachingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1DE2F49-DB86-4529-A7D7-CAD5B86D262E}|Core.Security\\Core.Security.csproj|c:\\users\\samun\\desktop\\api-projects\\narchitecturedemo\\src\\corepackages\\corepackages\\core.security\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1DE2F49-DB86-4529-A7D7-CAD5B86D262E}|Core.Security\\Core.Security.csproj|solutionrelative:core.security\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Application\\Pipelines\\Caching\\ICacheRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Core.Application\\Pipelines\\Caching\\ICacheRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1DE2F49-DB86-4529-A7D7-CAD5B86D262E}|Core.Security\\Core.Security.csproj|c:\\users\\samun\\desktop\\api-projects\\narchitecturedemo\\src\\corepackages\\corepackages\\core.security\\entities\\operationclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1DE2F49-DB86-4529-A7D7-CAD5B86D262E}|Core.Security\\Core.Security.csproj|solutionrelative:core.security\\entities\\operationclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,52 +34,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CachingBehavior.cs",
-              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Application\\Pipelines\\Caching\\CachingBehavior.cs",
-              "RelativeDocumentMoniker": "Core.Application\\Pipelines\\Caching\\CachingBehavior.cs",
-              "ToolTip": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Application\\Pipelines\\Caching\\CachingBehavior.cs",
-              "RelativeToolTip": "Core.Application\\Pipelines\\Caching\\CachingBehavior.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAiwEEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Security\\Entities\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "Core.Security\\Entities\\RefreshToken.cs",
+              "ToolTip": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Security\\Entities\\RefreshToken.cs",
+              "RelativeToolTip": "Core.Security\\Entities\\RefreshToken.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T08:16:33.408Z"
+              "WhenOpened": "2024-11-19T08:23:24.922Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CacheRemovingBehaviour.cs",
-              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Application\\Pipelines\\Caching\\CacheRemovingBehaviour.cs",
-              "RelativeDocumentMoniker": "Core.Application\\Pipelines\\Caching\\CacheRemovingBehaviour.cs",
-              "ToolTip": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Application\\Pipelines\\Caching\\CacheRemovingBehaviour.cs",
-              "RelativeToolTip": "Core.Application\\Pipelines\\Caching\\CacheRemovingBehaviour.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAADwvwwAAABCAAAAAAAAAA==",
+              "Title": "UserOperationClaim.cs",
+              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Security\\Entities\\UserOperationClaim.cs",
+              "RelativeDocumentMoniker": "Core.Security\\Entities\\UserOperationClaim.cs",
+              "ToolTip": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Security\\Entities\\UserOperationClaim.cs",
+              "RelativeToolTip": "Core.Security\\Entities\\UserOperationClaim.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowA0AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T07:59:10.244Z",
+              "WhenOpened": "2024-11-19T08:15:22.964Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ICacheRequest.cs",
-              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Application\\Pipelines\\Caching\\ICacheRequest.cs",
-              "RelativeDocumentMoniker": "Core.Application\\Pipelines\\Caching\\ICacheRequest.cs",
-              "ToolTip": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Application\\Pipelines\\Caching\\ICacheRequest.cs",
-              "RelativeToolTip": "Core.Application\\Pipelines\\Caching\\ICacheRequest.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAewBAAAAAAAAAAAAAAAA==",
+              "Title": "OperationClaim.cs",
+              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Security\\Entities\\OperationClaim.cs",
+              "RelativeDocumentMoniker": "Core.Security\\Entities\\OperationClaim.cs",
+              "ToolTip": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Security\\Entities\\OperationClaim.cs",
+              "RelativeToolTip": "Core.Security\\Entities\\OperationClaim.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T07:58:23.743Z"
+              "WhenOpened": "2024-11-19T08:12:27.006Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ICacheRemoverRequest.cs",
-              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Application\\Pipelines\\Caching\\ICacheRemoverRequest.cs",
-              "RelativeDocumentMoniker": "Core.Application\\Pipelines\\Caching\\ICacheRemoverRequest.cs",
-              "ToolTip": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Application\\Pipelines\\Caching\\ICacheRemoverRequest.cs",
-              "RelativeToolTip": "Core.Application\\Pipelines\\Caching\\ICacheRemoverRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Security\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Core.Security\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Security\\Entities\\User.cs",
+              "RelativeToolTip": "Core.Security\\Entities\\User.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwBQAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T07:58:10.252Z"
+              "WhenOpened": "2024-11-19T07:59:07.522Z"
             }
           ]
         },

@@ -16,6 +16,7 @@ namespace WebApi
             builder.Services.AddControllers();
             builder.Services.AddAplicationServices();
             builder.Services.AddPersistenceServices(builder.Configuration);
+            builder.Services.AddHttpContextAccessor();
 
             builder.Services.AddDistributedMemoryCache();
             //builder.Services.AddStackExchangeRedisCache(opt => opt.Configuration = "localhost:6379");

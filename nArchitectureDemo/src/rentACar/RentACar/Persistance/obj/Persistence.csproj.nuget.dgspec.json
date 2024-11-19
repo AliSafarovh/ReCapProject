@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\rentACar\\RentACar\\Persistance\\Persistence.csproj": {}
+    "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\rentACar\\RentACar\\Persistance\\Persistence.csproj": {}
   },
   "projects": {
-    "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\rentACar\\RentACar\\Application\\Application.csproj": {
+    "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\rentACar\\RentACar\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\rentACar\\RentACar\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\rentACar\\RentACar\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\rentACar\\RentACar\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\rentACar\\RentACar\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\samun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\rentACar\\RentACar\\Application\\obj\\",
+        "outputPath": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\rentACar\\RentACar\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\rentACar\\RentACar\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\rentACar\\RentACar\\Domain\\Domain.csproj"
+              "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\rentACar\\RentACar\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\rentACar\\RentACar\\Domain\\Domain.csproj"
               }
             }
           }
@@ -70,7 +70,7 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.10, )"
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -93,14 +93,14 @@
         }
       }
     },
-    "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\rentACar\\RentACar\\Domain\\Domain.csproj": {
+    "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\rentACar\\RentACar\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\rentACar\\RentACar\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\rentACar\\RentACar\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\rentACar\\RentACar\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\rentACar\\RentACar\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\samun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\rentACar\\RentACar\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\rentACar\\RentACar\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -156,14 +156,14 @@
         }
       }
     },
-    "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\rentACar\\RentACar\\Persistance\\Persistence.csproj": {
+    "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\rentACar\\RentACar\\Persistance\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\rentACar\\RentACar\\Persistance\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\rentACar\\RentACar\\Persistance\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\rentACar\\RentACar\\Persistance\\Persistence.csproj",
+        "projectPath": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\rentACar\\RentACar\\Persistance\\Persistence.csproj",
         "packagesPath": "C:\\Users\\samun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\rentACar\\RentACar\\Persistance\\obj\\",
+        "outputPath": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\rentACar\\RentACar\\Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -183,11 +183,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\rentACar\\RentACar\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\rentACar\\RentACar\\Application\\Application.csproj"
+              "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\rentACar\\RentACar\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\rentACar\\RentACar\\Application\\Application.csproj"
               },
-              "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\rentACar\\RentACar\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\rentACar\\RentACar\\Domain\\Domain.csproj"
+              "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\rentACar\\RentACar\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\rentACar\\RentACar\\Domain\\Domain.csproj"
               }
             }
           }
@@ -209,19 +209,19 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.10, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
-              "version": "[8.0.10, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.10, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             }
           },
           "imports": [

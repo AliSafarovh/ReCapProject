@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\rentACar\\RentACar\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\rentACar\\RentACar\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\rentACar\\RentACar\\Domain\\Domain.csproj",
+      "projectPath": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\rentACar\\RentACar\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\samun\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\rentACar\\RentACar\\Domain\\obj\\",
+      "outputPath": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\rentACar\\RentACar\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

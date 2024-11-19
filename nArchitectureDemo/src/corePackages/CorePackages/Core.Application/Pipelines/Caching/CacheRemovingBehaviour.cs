@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 
 namespace Core.Application.Pipelines.Caching
 {
-    public class CacheRemovingBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
+    public class CacheRemovingBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
         where TRequest : IRequest<TResponse>, ICacheRemoverRequest
     {
         private readonly IDistributedCache _cache;
 
-        public CacheRemovingBehaviour(IDistributedCache cache)
+        public CacheRemovingBehavior(IDistributedCache cache)
         {
             _cache = cache;
         }

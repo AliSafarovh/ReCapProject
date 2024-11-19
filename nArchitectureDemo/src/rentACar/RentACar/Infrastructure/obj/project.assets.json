@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\rentACar\\RentACar\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\rentACar\\RentACar\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\rentACar\\RentACar\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\rentACar\\RentACar\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\samun\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samun\\Desktop\\MyProject\\API\\nArchitectureDemo\\src\\rentACar\\RentACar\\Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\rentACar\\RentACar\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

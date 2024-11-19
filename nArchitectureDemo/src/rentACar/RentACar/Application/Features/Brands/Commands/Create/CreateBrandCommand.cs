@@ -2,13 +2,14 @@
 using Application.Services.Repositories;
 using AutoMapper;
 using Core.Application.Pipelines.Caching;
+using Core.Application.Pipelines.Logger;
 using Core.Application.Pipelines.Transaction;
 using Domain.Entites;
 using MediatR;
 
 namespace Application.Features.Brands.Commands.Create
 {
-    public class CreateBrandCommand : IRequest<CreatedBrandResponse> ,ITransactionalRequest,ICacheRemoverRequest //IRequest Mediatr ile isleyeceni gosterir. 
+    public class CreateBrandCommand : IRequest<CreatedBrandResponse> ,ITransactionalRequest,ICacheRemoverRequest,ILoggableRequest //IRequest Mediatr ile isleyeceni gosterir. 
         //ve emr icra olunduqdan sonra CreatedBrandResponse tipinde netice qaytaracaq.
     {
         public string Name { get; set; } //Yeni brand yaradarken Name-i ozunde saxla
