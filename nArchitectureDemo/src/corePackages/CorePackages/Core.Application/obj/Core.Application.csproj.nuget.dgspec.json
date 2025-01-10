@@ -14,10 +14,12 @@
         "outputPath": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\samun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,14 +27,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
-                "projectPath": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj"
+              "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Security\\Core.Security.csproj": {
+                "projectPath": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Security\\Core.Security.csproj"
               },
               "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\corePackages\\CorePackages\\CorePersistance\\Core.Persistence.csproj": {
                 "projectPath": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\corePackages\\CorePackages\\CorePersistance\\Core.Persistence.csproj"
@@ -48,8 +51,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -57,7 +61,7 @@
           "dependencies": {
             "FluentValidation": {
               "target": "Package",
-              "version": "[11.10.0, )"
+              "version": "[11.11.0, )"
             },
             "MediatR": {
               "target": "Package",
@@ -84,24 +88,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
+    "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Security\\Core.Security.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
-        "projectName": "Core.CrossCuttingConcerns",
-        "projectPath": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
+        "projectUniqueName": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Security\\Core.Security.csproj",
+        "projectName": "Core.Security",
+        "projectPath": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Security\\Core.Security.csproj",
         "packagesPath": "C:\\Users\\samun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.CrossCuttingConcerns\\obj\\",
+        "outputPath": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\corePackages\\CorePackages\\Core.Security\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\samun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -109,12 +115,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\corePackages\\CorePackages\\CorePersistance\\Core.Persistence.csproj": {
+                "projectPath": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\corePackages\\CorePackages\\CorePersistance\\Core.Persistence.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -125,32 +136,37 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Mvc.Core": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[2.2.5, )"
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "Microsoft.Extensions.Configuration.Binder": {
               "target": "Package",
               "version": "[8.0.2, )"
             },
-            "Serilog": {
+            "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
-              "version": "[4.1.0, )"
+              "version": "[8.2.1, )"
             },
-            "Serilog.Sinks.File": {
+            "Otp.NET": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[1.4.0, )"
             },
-            "Serilog.Sinks.MSSqlServer": {
+            "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.2.1, )"
             }
           },
           "imports": [
@@ -169,7 +185,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -183,10 +199,12 @@
         "outputPath": "C:\\Users\\samun\\Desktop\\API-Projects\\nArchitectureDemo\\src\\corePackages\\CorePackages\\CorePersistance\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\samun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -194,6 +212,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -210,8 +229,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -223,11 +243,11 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.11, )"
             },
             "System.Linq.Dynamic.Core": {
               "target": "Package",
-              "version": "[1.4.8, )"
+              "version": "[1.4.9, )"
             }
           },
           "imports": [
@@ -246,7 +266,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
