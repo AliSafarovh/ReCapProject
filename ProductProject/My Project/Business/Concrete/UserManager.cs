@@ -18,19 +18,19 @@ namespace Business.Concrete
             _userDal = userDal;
         }
 
-        public List<OperationClaim> GetClaims(User user)
+        public async Task AddAsync(User user)
         {
-            return _userDal.GetClaims(user);
+          await _userDal.AddAsync(user);
         }
 
-        public void Add(User user)
+        public async Task<User> GetByMailAsync(string email)
         {
-            _userDal.Add(user);
+            return await _userDal.GetAsync(u=>u.Email == email);
         }
 
-        public User GetByMail(string email)
+        public async Task<List<OperationClaim>> GetClaimsAsync(User user)
         {
-            return _userDal.Get(u => u.Email == email);
+          return await _userDal.GetClaims(user);
         }
     }
 }

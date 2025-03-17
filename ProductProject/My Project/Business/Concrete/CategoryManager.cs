@@ -12,21 +12,23 @@ namespace Business.Concrete
 {
     public class CategoryManager : ICategoryService
     {
-        ICategoryDal _categorydal;
+        private ICategoryDal _categoryDal;
+
         public CategoryManager(ICategoryDal categoryDal)
         {
-            _categorydal = categoryDal;
+            _categoryDal = categoryDal;
         }
 
-        public IDataResult <List<Category>>GetAll()
+        public async Task<IDataResult<List<Category>>> GetAllAsync()
         {
-            return new SuccessDataResult <List<Category>>(_categorydal.GetAll());
+            var result = await _categoryDal.GetAllAsync();  
+            return new SuccessDataResult<List<Category>>(result); 
         }
 
-        public IDataResult <Category> GetById(int categoryid)
+        public async Task<IDataResult<Category>> GetByIdAsync(int categoryId)
         {
-            return new SuccessDataResult <Category>(_categorydal.Get(c => c.CategoryId == categoryid));
+            var result = await _categoryDal.GetAsync(c => c.CategoryId == categoryId);  
+            return new SuccessDataResult<Category>(result);  
         }
-        
     }
 }

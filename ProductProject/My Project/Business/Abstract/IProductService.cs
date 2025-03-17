@@ -11,15 +11,14 @@ namespace Business.Abstract
 {
     public interface IProductService
     {
-        IDataResult <List<Product>> GetAll();  //evvelki List tipi bize sadece datani verirdise,
-        //IdataResult tipi Result sinfinden miras alaraq hem datani verir hemde metodun icrasi haqqinda mesaj.
-        //Burada <List<Product>> <T> tipidir.
-         IDataResult <List<Product>> GetByCategoryId(int id);
-         IDataResult <List<Product>> GetByUnitPrice(decimal min, decimal max);
-        IDataResult <List<ProductDetailDto>> GetProductDetails();
-        IResult Add(Product product); //Result tipi bize metodun icrasi haqqinda mesaj gonderir
-         IDataResult <Product> GetById(int productId);
-        IResult Update(Product product);
-        IResult Delete(Product product);
+       Task <IDataResult<List<Product>>> GetAllAsync();  //evvelki List tipi bize sadece datani verirdise,IdataResult tipi Result sinfinden miras alaraq hem datani verir hemde metodun icrasi haqqinda mesaj.
+        Task <IDataResult<List<Product>>> GetByCategoryIdAsync(int id);
+        Task <IDataResult<List<Product>>> GetByUnitPriceAsync(decimal min, decimal max);
+        Task <IDataResult<List<ProductDetailDto>>> GetProductDetailsAsync();
+        Task <IResult> AddAsync(Product product); //Result tipi bize metodun icrasi haqqinda mesaj gonderir
+        Task <IDataResult<Product>> GetByIdAsync(int productId);
+        Task <IResult> UpdateAsync(Product product);
+        Task <IResult> DeleteAsync(Product product);
+        //IResult AddTransactionalTest(Product product); 
     }
 }

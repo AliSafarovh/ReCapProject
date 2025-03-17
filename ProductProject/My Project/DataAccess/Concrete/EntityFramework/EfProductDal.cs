@@ -1,5 +1,4 @@
-﻿using Core.DataAccess.EntityFramework;
-using DataAccess.Abstract;
+﻿using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
 using Microsoft.EntityFrameworkCore;
@@ -14,7 +13,7 @@ namespace DataAccess.Concrete.EntityFramework
 {
     public class EfProductDal : EfEntityRepositoryBase<Product, NorthWindContext>, IProductDal
     {
-        public List<ProductDetailDto> GetProductDetails()
+        public async Task <List<ProductDetailDto>> GetProductDetailsAsync()
         {
             using (NorthWindContext context = new NorthWindContext())
             {
@@ -28,7 +27,7 @@ namespace DataAccess.Concrete.EntityFramework
                                  CategoryName = c.CategoryName,
                                  UnitsInStock = p.UnitsInStock,
                              };
-                return result.ToList();
+                return await result.ToListAsync();
             }
         }
     }

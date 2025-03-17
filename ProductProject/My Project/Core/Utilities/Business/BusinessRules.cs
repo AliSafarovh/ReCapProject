@@ -9,17 +9,18 @@ namespace Core.Utilities.Business
 {
     public static class BusinessRules
     {
-        //params(istediyin qeder IResult tipinde metod elave et(Array kimi))
-        public static IResult Run(params IResult[] logics) 
+        // params(istediyin qeder Task<IResult> tipinde metod elave et)
+        public static async Task<IResult> Run(params Task<IResult>[] logics)
         {
             foreach (var logic in logics)
             {
-                if (!logic.Success)
+                var result = await logic; // Her bir asinxron metodu icra edirik
+                if (!result.Success)
                 {
-                    return logic;  // Metod ən birinci burada işləyir
+                    return result; // İlk səhvi tapanda geri qaytarırıq
                 }
             }
-            return null;
+            return null; // Bütün qaydalar uğurlu keçərsə, null qaytarır
         }
     }
 }

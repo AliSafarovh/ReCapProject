@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\samun\\Desktop\\MyProject\\API\\ProductProject\\My Project\\Entities\\Entities.csproj": {}
+    "C:\\Users\\samun\\Desktop\\API-Projects\\ProductProject\\My Project\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\samun\\Desktop\\MyProject\\API\\ProductProject\\My Project\\Core\\Core.csproj": {
+    "C:\\Users\\samun\\Desktop\\API-Projects\\ProductProject\\My Project\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samun\\Desktop\\MyProject\\API\\ProductProject\\My Project\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\samun\\Desktop\\API-Projects\\ProductProject\\My Project\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\samun\\Desktop\\MyProject\\API\\ProductProject\\My Project\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\samun\\Desktop\\API-Projects\\ProductProject\\My Project\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\samun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samun\\Desktop\\MyProject\\API\\ProductProject\\My Project\\Core\\obj\\",
+        "outputPath": "C:\\Users\\samun\\Desktop\\API-Projects\\ProductProject\\My Project\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\samun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,7 +45,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -64,6 +67,10 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[11.9.2, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.3.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -98,24 +105,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\samun\\Desktop\\MyProject\\API\\ProductProject\\My Project\\Entities\\Entities.csproj": {
+    "C:\\Users\\samun\\Desktop\\API-Projects\\ProductProject\\My Project\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samun\\Desktop\\MyProject\\API\\ProductProject\\My Project\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\samun\\Desktop\\API-Projects\\ProductProject\\My Project\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\samun\\Desktop\\MyProject\\API\\ProductProject\\My Project\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\samun\\Desktop\\API-Projects\\ProductProject\\My Project\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\samun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samun\\Desktop\\MyProject\\API\\ProductProject\\My Project\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\samun\\Desktop\\API-Projects\\ProductProject\\My Project\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\samun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -130,8 +139,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\samun\\Desktop\\MyProject\\API\\ProductProject\\My Project\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\samun\\Desktop\\MyProject\\API\\ProductProject\\My Project\\Core\\Core.csproj"
+              "C:\\Users\\samun\\Desktop\\API-Projects\\ProductProject\\My Project\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\samun\\Desktop\\API-Projects\\ProductProject\\My Project\\Core\\Core.csproj"
               }
             }
           }
@@ -145,7 +154,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -166,7 +176,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

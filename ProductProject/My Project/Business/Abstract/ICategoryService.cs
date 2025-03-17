@@ -10,7 +10,7 @@ namespace Business.Abstract
 {
     public interface ICategoryService
     {
-      public  IDataResult <List<Category>>GetAll();
-       public IDataResult <Category> GetById(int categoryid);
+        Task<IDataResult<List<Category>>> GetAllAsync(); 
+        Task<IDataResult<Category>> GetByIdAsync(int categoryId);
     }
 }

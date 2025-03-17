@@ -8,12 +8,15 @@ using System.Threading.Tasks;
 
 namespace Core.DataAccess
 {
-    public interface IEntityRepository<T> where T : class,IEntity
+    using System.Linq.Expressions;
+
+    public interface IEntityRepository<T> where T : class, IEntity
     {
-        List<T> GetAll(Expression<Func<T,bool>>filter=null);
-        T Get(Expression<Func<T, bool>> filter);
-        void Add(T entity);
-        void Delete(T entity);
-        void Update(T entity);
+        Task<List<T>> GetAllAsync(Expression<Func<T, bool>> filter = null);
+        Task<T> GetAsync(Expression<Func<T, bool>> filter);
+        Task AddAsync(T entity);
+        Task DeleteAsync(T entity);
+        Task UpdateAsync(T entity);
     }
+
 }

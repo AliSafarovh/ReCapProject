@@ -2,28 +2,26 @@
 using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
+using Core.Apects.Autofac.Caching;
+using Core.Apects.Autofac.Performance;
+using Core.Apects.Autofac.Transaction;
 using Core.Apects.Autofac.Validation;
-using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Business;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
-using FluentValidation;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Business.Concrete
-{
+{   
+    [PerformanceAspect(2)]
     public class ProductManager : IProductService
     {
 
         IProductDal _productDal;
         ICategoryService _categoryService;
-    
+
         public ProductManager(IProductDal productDal, ICategoryService categoryService)
         {
             _productDal = productDal;
@@ -31,89 +29,130 @@ namespace Business.Concrete
         }
 
         [SecuredOperation("product.add,admin")]
-        [ValidationAspect(typeof (ProductValidator))] 
-        //Atribut-Add metodunu run etmemisden evvel Atributu ise sal 
-        //Meselen: ProductValidator atributu ile dogralama et sonra Add metodunu run et
-        public IResult Add(Product product)
+        [ValidationAspect(typeof(ProductValidator))]
+        //[CacheRemoveAspect("IProductService")]
+        [TransactionScopeAspect]
+        public async Task<IResult> AddAsync(Product product)
         {
-           
-            //Validation kodlarini business de deyl Aspect de calistiraq
+            // Validation kodlarini business de deyl Aspect de calistiraq
 
-            IResult result = BusinessRules.Run(CheckIfProductofCategoryCorrect(product.CategoryId)
-                ,CheckOfProductName(product.ProductName),CheckIfCategoryLimitedExceded( ));//IResult tipindeki metodlari calistir.
-            if (result != null) 
-            { return result; }
-            _productDal.Add(product);
-            return new SuccessResult(Messages.ProductAdded);      
-        }
-
-        public IResult Delete(Product product)
-        {
-            _productDal.Delete(product);
-            return new SuccessResult(Messages.ProductDeleted);
-        }
-        public IDataResult <List<Product>> GetAll()
-        {
-            //if (DateTime.Now.Hour == 15)
+            #region BusinessCode LimitedError
+            //// Business code (1 categoride en cox 10 mehsul olsun)
+            //var productCount = await _productDal.GetAllAsync(p => p.CategoryId == product.CategoryId);
+            //if (productCount.Count >= 10)
             //{
-            //    return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
+            //    return new ErrorResult(Messages.ProductCountOfCategoryError);
             //}
-            return new SuccessDataResult<List<Product>>(_productDal.GetAll(),Messages.ProductListed);
+            #endregion
+
+            // IResult tipindeki metodlari calistir.
+            var result = await BusinessRules.Run(
+              CheckIfProductofCategoryCorrect(product.CategoryId),
+              CheckOfProductName(product.ProductName),
+              CheckIfCategoryLimitedExceded()
+ );
+
+            if (result != null)
+            {
+                return result; // Əgər bir qayda pozularsa, səhv mesajı qaytarırıq
+            }
+
+            await _productDal.AddAsync(product);
+            return new SuccessResult(Messages.ProductAdded);
         }
 
-        public IDataResult <List<Product>> GetByCategoryId(int id)
+
+        public async Task <IResult> DeleteAsync(Product product)
         {
-            return new SuccessDataResult <List<Product>>(_productDal.GetAll(p=>p.CategoryId==id),Messages.ProductListed);
+           await _productDal.DeleteAsync(product);
+            return  new SuccessResult(Messages.ProductDeleted);
+        }
+        [CacheAspect]
+        public async Task<IDataResult<List<Product>>> GetAllAsync()
+        {
+            var products = await _productDal.GetAllAsync();  
+            return new SuccessDataResult<List<Product>>(products, Messages.ProductListed);
         }
 
-        public IDataResult <Product> GetById(int productId)
+        
+        [CacheAspect]
+        public async Task<IDataResult<List<Product>>> GetByCategoryIdAsync(int id)
         {
-            return new SuccessDataResult<Product>(_productDal.Get(p=>p.ProductId==productId),Messages.ProductListed);
+            var products = await _productDal.GetAllAsync(p => p.CategoryId == id);  // Asinxron olaraq məhsulları götürürük
+            return new SuccessDataResult<List<Product>>(products, Messages.ProductListed);
         }
 
-        public IDataResult <List<Product>> GetByUnitPrice(decimal min, decimal max)
+        public async Task<IDataResult<Product>> GetByIdAsync(int productId)
         {
-           return new SuccessDataResult<List<Product>>(_productDal.GetAll(p=>p.UnitPrice>=min && p.UnitPrice<=max),Messages.ProductListed);
+            var product = await _productDal.GetAsync(p => p.ProductId == productId);  // Asinxron olaraq məhsul əldə edilir
+            return new SuccessDataResult<Product>(product, Messages.ProductListed);
         }
 
-        public IDataResult <List<ProductDetailDto>> GetProductDetails()
+
+        public async Task<IDataResult<List<Product>>> GetByUnitPriceAsync(decimal min, decimal max)
         {
-           return new SuccessDataResult<List<ProductDetailDto>>(_productDal.GetProductDetails(),Messages.ProductListed);  
+            var products = await _productDal.GetAllAsync(p => p.UnitPrice >= min && p.UnitPrice <= max);  // Asinxron qiymət diapazonuna uyğun məhsulları alırıq
+            return new SuccessDataResult<List<Product>>(products, Messages.ProductListed);
         }
 
-        public IResult Update (Product product)
+        public async Task<IDataResult<List<ProductDetailDto>>> GetProductDetailsAsync()
         {
-            _productDal.Update(product);
+            var productDetails = await _productDal.GetProductDetailsAsync();  
+            return new SuccessDataResult<List<ProductDetailDto>>(productDetails, Messages.ProductListed);
+        }
+
+        [ValidationAspect(typeof(ProductValidator))]
+        [CacheRemoveAspect("IProductService.Get")]
+        public async Task<IResult> UpdateAsync(Product product)
+        {
+           await  _productDal.UpdateAsync(product);
             return new SuccessResult(Messages.ProductUpdated);
         }
 
-     private IResult CheckIfProductofCategoryCorrect(int categoryId)
+
+        #region Business Code
+
+        // Eyni kateqoriyada maksimum 10 məhsul ola bilər.
+        private async Task<IResult> CheckIfProductofCategoryCorrect(int categoryId)
         {
-            var result = _productDal.GetAll(p => p.CategoryId == categoryId).Count;
-            if (result <=10 )
+            var result = await _productDal.GetAllAsync(p => p.CategoryId == categoryId);
+            if (result.Count >= 10) // Count async olmadığı üçün await etməyə ehtiyac yoxdur.
             {
                 return new ErrorResult(Messages.ProductCountOfCategoryError);
             }
             return new SuccessResult();
         }
-        private IResult CheckOfProductName(string productName)
+
+        // Məhsul adının unikal olub-olmadığını yoxlayır.
+        private async Task<IResult> CheckOfProductName(string productName)
         {
-            var result = _productDal.GetAll(pn => pn.ProductName == productName);
-            if(result != null)
+            var result = await _productDal.GetAsync(pn => pn.ProductName == productName);
+            if (result != null) // Əgər məhsul tapılarsa, ErrorResult qaytar.
             {
                 return new ErrorResult(Messages.ProductNameInvalid);
             }
             return new SuccessResult();
         }
 
-        private IResult CheckIfCategoryLimitedExceded()
+        // Kateqoriya limiti 15-dən çox ola bilməz.
+        private async Task<IResult> CheckIfCategoryLimitedExceded()
         {
-            var result = _categoryService.GetAll();
+            var result = await _categoryService.GetAllAsync();
             if (result.Data.Count > 15)
             {
                 return new ErrorResult(Messages.CategoryLimitedExceded);
-            } 
+            }
             return new SuccessResult();
         }
+
+        //private  IResult CheckOfMaintanceTime()
+        //{
+        //    if (DateTime.Now.Hour == 15)
+        //    {
+        //        return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
+        //    }
+        //}
+        #endregion
+
     }
 }

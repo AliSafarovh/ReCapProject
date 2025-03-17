@@ -14,8 +14,8 @@ namespace Core.Apects.Autofac.Validation
     {
         private Type _validatorType;  
         public ValidationAspect(Type validatorType) //Mene bir Aspect tipi ver
-        {
-            if (!typeof(IValidator).IsAssignableFrom(validatorType)) //Validator oldugu yoxlanilir
+        {   //defensive code
+            if (!typeof(IValidator).IsAssignableFrom(validatorType)) //Validator oldugu yoxlanilir. yeni IValidator tipi IsAssignable (qebul ede bilirmi?) validatortype-i?
             {
                 throw new System.Exception("Bu bir Dogrulama sinifi deyil");
             }
@@ -25,7 +25,7 @@ namespace Core.Apects.Autofac.Validation
         protected override void OnBefore(IInvocation invocation)
         {
             var validator = (IValidator)Activator.CreateInstance(_validatorType); // ProductValidator  
-            var entityType = _validatorType.BaseType.GetGenericArguments()[0]; // Product
+            var entityType = _validatorType.BaseType.GetGenericArguments()[0]; // Product type
             var entities = invocation.Arguments.Where(t => t.GetType() == entityType); // product
             foreach (var entity in entities)
             {

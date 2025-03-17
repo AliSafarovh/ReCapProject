@@ -24,42 +24,32 @@ namespace DataAccess.Concrete.InMemory
              };
         }
 
-        public void Add(Product entity)
+        public Task AddAsync(Product entity)
         {
             throw new NotImplementedException();
         }
 
-        public void Delete(Product entity)
+        public Task DeleteAsync(Product entity)
         {
             throw new NotImplementedException();
         }
 
-        public Product Get(Expression<Func<Product, bool>> filter)
+        public Task<List<Product>> GetAllAsync(Expression<Func<Product, bool>> filter = null)
         {
             throw new NotImplementedException();
         }
 
-        public List<Product> GetAll(Expression<Func<Product, bool>> filter = null)
+        public Task<Product> GetAsync(Expression<Func<Product, bool>> filter)
         {
             throw new NotImplementedException();
         }
 
-        public List<Product> GetbyCategoryId(int categoryId)
-        {
-            return _products.Where(p=>p.CategoryId == categoryId).ToList();
-        }
-
-        public List<ProductDetailDto> GetProductDetails()
+        public Task<List<ProductDetailDto>> GetProductDetailsAsync()
         {
             throw new NotImplementedException();
         }
 
-        public void Update(Product entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        List<ProductDetailDto> IProductDal.GetProductDetails()
+        public Task UpdateAsync(Product entity)
         {
             throw new NotImplementedException();
         }

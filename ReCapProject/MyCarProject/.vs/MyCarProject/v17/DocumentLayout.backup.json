@@ -1,20 +1,52 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\samun\\Desktop\\MyProject\\ReCapProject\\MyCarProject\\",
+  "WorkspaceRootPath": "C:\\Users\\samun\\Desktop\\API-Projects\\ReCapProject\\MyCarProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D2C71F9-173D-4FF8-BFF2-F0F6B39AE35E}|Business\\Business.csproj|c:\\users\\samun\\desktop\\myproject\\recapproject\\mycarproject\\business\\concrete\\carimagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{54298A73-2828-4661-9B8C-22F730F934DF}|Core\\Core.csproj|c:\\users\\samun\\desktop\\api-projects\\recapproject\\mycarproject\\core\\utilities\\helper\\filehelper\\filehelpermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54298A73-2828-4661-9B8C-22F730F934DF}|Core\\Core.csproj|solutionrelative:core\\utilities\\helper\\filehelper\\filehelpermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54298A73-2828-4661-9B8C-22F730F934DF}|Core\\Core.csproj|c:\\users\\samun\\desktop\\api-projects\\recapproject\\mycarproject\\core\\utilities\\helper\\filehelper\\ifilehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54298A73-2828-4661-9B8C-22F730F934DF}|Core\\Core.csproj|solutionrelative:core\\utilities\\helper\\filehelper\\ifilehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54298A73-2828-4661-9B8C-22F730F934DF}|Core\\Core.csproj|c:\\users\\samun\\desktop\\api-projects\\recapproject\\mycarproject\\core\\utilities\\helper\\guidhelper\\guidhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54298A73-2828-4661-9B8C-22F730F934DF}|Core\\Core.csproj|solutionrelative:core\\utilities\\helper\\guidhelper\\guidhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54298A73-2828-4661-9B8C-22F730F934DF}|Core\\Core.csproj|c:\\users\\samun\\desktop\\api-projects\\recapproject\\mycarproject\\core\\utilities\\helper\\pathconstants\\pathconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54298A73-2828-4661-9B8C-22F730F934DF}|Core\\Core.csproj|solutionrelative:core\\utilities\\helper\\pathconstants\\pathconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54298A73-2828-4661-9B8C-22F730F934DF}|Core\\Core.csproj|c:\\users\\samun\\desktop\\api-projects\\recapproject\\mycarproject\\core\\dataaccess\\entityframework\\efentityrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54298A73-2828-4661-9B8C-22F730F934DF}|Core\\Core.csproj|solutionrelative:core\\dataaccess\\entityframework\\efentityrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C970434D-C41B-48BE-B755-5DF58CE312C8}|DataAccess\\DataAccess.csproj|c:\\users\\samun\\desktop\\api-projects\\recapproject\\mycarproject\\dataaccess\\concrete\\entityframework\\efcardal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C970434D-C41B-48BE-B755-5DF58CE312C8}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\efcardal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C970434D-C41B-48BE-B755-5DF58CE312C8}|DataAccess\\DataAccess.csproj|c:\\users\\samun\\desktop\\api-projects\\recapproject\\mycarproject\\dataaccess\\concrete\\entityframework\\efbranddal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C970434D-C41B-48BE-B755-5DF58CE312C8}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\efbranddal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D2C71F9-173D-4FF8-BFF2-F0F6B39AE35E}|Business\\Business.csproj|c:\\users\\samun\\desktop\\api-projects\\recapproject\\mycarproject\\business\\concrete\\carimagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D2C71F9-173D-4FF8-BFF2-F0F6B39AE35E}|Business\\Business.csproj|solutionrelative:business\\concrete\\carimagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C441F528-1391-4755-ACC5-59F48CD9EDB4}|WebAPI\\WebAPI.csproj|c:\\users\\samun\\desktop\\myproject\\recapproject\\mycarproject\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C441F528-1391-4755-ACC5-59F48CD9EDB4}|WebAPI\\WebAPI.csproj|c:\\users\\samun\\desktop\\api-projects\\recapproject\\mycarproject\\webapi\\controllers\\carimagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C441F528-1391-4755-ACC5-59F48CD9EDB4}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\carimagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C441F528-1391-4755-ACC5-59F48CD9EDB4}|WebAPI\\WebAPI.csproj|c:\\users\\samun\\desktop\\api-projects\\recapproject\\mycarproject\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C441F528-1391-4755-ACC5-59F48CD9EDB4}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DELL/CarDatabase/True/SqlTable/dbo.CarImages.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D2C71F9-173D-4FF8-BFF2-F0F6B39AE35E}|Business\\Business.csproj|c:\\users\\samun\\desktop\\myproject\\recapproject\\mycarproject\\business\\concrete\\brandmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D2C71F9-173D-4FF8-BFF2-F0F6B39AE35E}|Business\\Business.csproj|c:\\users\\samun\\desktop\\api-projects\\recapproject\\mycarproject\\business\\concrete\\brandmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D2C71F9-173D-4FF8-BFF2-F0F6B39AE35E}|Business\\Business.csproj|solutionrelative:business\\concrete\\brandmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -25,70 +57,157 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\MyProject\\ReCapProject\\MyCarProject\\WebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\samun\\Desktop\\MyProject\\ReCapProject\\MyCarProject\\WebAPI\\Program.cs",
-              "RelativeToolTip": "WebAPI\\Program.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAmwBEAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "GuidHelper.cs",
+              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\API-Projects\\ReCapProject\\MyCarProject\\Core\\Utilities\\Helper\\GuidHelper\\GuidHelper.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Helper\\GuidHelper\\GuidHelper.cs",
+              "ToolTip": "C:\\Users\\samun\\Desktop\\API-Projects\\ReCapProject\\MyCarProject\\Core\\Utilities\\Helper\\GuidHelper\\GuidHelper.cs",
+              "RelativeToolTip": "Core\\Utilities\\Helper\\GuidHelper\\GuidHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T13:28:04.707Z",
+              "WhenOpened": "2025-03-07T12:10:01.439Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "dbo.CarImages [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/DELL/CarDatabase/True/SqlTable/dbo.CarImages.sql",
-              "ToolTip": "dbo.CarImages [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-08-22T13:26:06.014Z",
+              "DocumentIndex": 3,
+              "Title": "PathConstant.cs",
+              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\API-Projects\\ReCapProject\\MyCarProject\\Core\\Utilities\\Helper\\PathConstants\\PathConstant.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Helper\\PathConstants\\PathConstant.cs",
+              "ToolTip": "C:\\Users\\samun\\Desktop\\API-Projects\\ReCapProject\\MyCarProject\\Core\\Utilities\\Helper\\PathConstants\\PathConstant.cs",
+              "RelativeToolTip": "Core\\Utilities\\Helper\\PathConstants\\PathConstant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T12:09:41.94Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FileHelperManager.cs",
+              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\API-Projects\\ReCapProject\\MyCarProject\\Core\\Utilities\\Helper\\FileHelper\\FileHelperManager.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Helper\\FileHelper\\FileHelperManager.cs",
+              "ToolTip": "C:\\Users\\samun\\Desktop\\API-Projects\\ReCapProject\\MyCarProject\\Core\\Utilities\\Helper\\FileHelper\\FileHelperManager.cs",
+              "RelativeToolTip": "Core\\Utilities\\Helper\\FileHelper\\FileHelperManager.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwCYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T12:08:26.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IFileHelper.cs",
+              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\API-Projects\\ReCapProject\\MyCarProject\\Core\\Utilities\\Helper\\FileHelper\\IFileHelper.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Helper\\FileHelper\\IFileHelper.cs",
+              "ToolTip": "C:\\Users\\samun\\Desktop\\API-Projects\\ReCapProject\\MyCarProject\\Core\\Utilities\\Helper\\FileHelper\\IFileHelper.cs",
+              "RelativeToolTip": "Core\\Utilities\\Helper\\FileHelper\\IFileHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T12:08:57.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EfEntityRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\API-Projects\\ReCapProject\\MyCarProject\\Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
+              "RelativeDocumentMoniker": "Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
+              "ToolTip": "C:\\Users\\samun\\Desktop\\API-Projects\\ReCapProject\\MyCarProject\\Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
+              "RelativeToolTip": "Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwDwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T12:00:37.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EfCarDal.cs",
+              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\API-Projects\\ReCapProject\\MyCarProject\\DataAccess\\Concrete\\EntityFramework\\EfCarDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EfCarDal.cs",
+              "ToolTip": "C:\\Users\\samun\\Desktop\\API-Projects\\ReCapProject\\MyCarProject\\DataAccess\\Concrete\\EntityFramework\\EfCarDal.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\EfCarDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T12:00:19.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EfBrandDal.cs",
+              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\API-Projects\\ReCapProject\\MyCarProject\\DataAccess\\Concrete\\EntityFramework\\EfBrandDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EfBrandDal.cs",
+              "ToolTip": "C:\\Users\\samun\\Desktop\\API-Projects\\ReCapProject\\MyCarProject\\DataAccess\\Concrete\\EntityFramework\\EfBrandDal.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\EfBrandDal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T12:00:18.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CarImagesController.cs",
+              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\API-Projects\\ReCapProject\\MyCarProject\\WebAPI\\Controllers\\CarImagesController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\CarImagesController.cs",
+              "ToolTip": "C:\\Users\\samun\\Desktop\\API-Projects\\ReCapProject\\MyCarProject\\WebAPI\\Controllers\\CarImagesController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\CarImagesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T11:58:04.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\API-Projects\\ReCapProject\\MyCarProject\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\samun\\Desktop\\API-Projects\\ReCapProject\\MyCarProject\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwBEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T13:28:04.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "dbo.CarImages.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DELL/CarDatabase/True/SqlTable/dbo.CarImages.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/DELL/CarDatabase/True/SqlTable/dbo.CarImages.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-22T13:26:06.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "CarImageManager.cs",
-              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\MyProject\\ReCapProject\\MyCarProject\\Business\\Concrete\\CarImageManager.cs",
+              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\API-Projects\\ReCapProject\\MyCarProject\\Business\\Concrete\\CarImageManager.cs",
               "RelativeDocumentMoniker": "Business\\Concrete\\CarImageManager.cs",
-              "ToolTip": "C:\\Users\\samun\\Desktop\\MyProject\\ReCapProject\\MyCarProject\\Business\\Concrete\\CarImageManager.cs",
+              "ToolTip": "C:\\Users\\samun\\Desktop\\API-Projects\\ReCapProject\\MyCarProject\\Business\\Concrete\\CarImageManager.cs",
               "RelativeToolTip": "Business\\Concrete\\CarImageManager.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAA3wFEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-22T11:52:02.39Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "BrandManager.cs",
-              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\MyProject\\ReCapProject\\MyCarProject\\Business\\Concrete\\BrandManager.cs",
+              "DocumentMoniker": "C:\\Users\\samun\\Desktop\\API-Projects\\ReCapProject\\MyCarProject\\Business\\Concrete\\BrandManager.cs",
               "RelativeDocumentMoniker": "Business\\Concrete\\BrandManager.cs",
-              "ToolTip": "C:\\Users\\samun\\Desktop\\MyProject\\ReCapProject\\MyCarProject\\Business\\Concrete\\BrandManager.cs",
+              "ToolTip": "C:\\Users\\samun\\Desktop\\API-Projects\\ReCapProject\\MyCarProject\\Business\\Concrete\\BrandManager.cs",
               "RelativeToolTip": "Business\\Concrete\\BrandManager.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T11:52:01.844Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 127,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2024-08-22T11:52:01.844Z"
             }
           ]
         }

@@ -1,0 +1,1294 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "WebAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Brands/getall": {
+      "get": {
+        "tags": [
+          "Brands"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Brands/getbyid": {
+      "get": {
+        "tags": [
+          "Brands"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Brands/update": {
+      "put": {
+        "tags": [
+          "Brands"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Brand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Brand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Brand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Brands/add": {
+      "post": {
+        "tags": [
+          "Brands"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "BrandId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "BrandName": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "BrandId": {
+                  "style": "form"
+                },
+                "BrandName": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Brands/delete": {
+      "delete": {
+        "tags": [
+          "Brands"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "BrandId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "BrandName": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "BrandId": {
+                  "style": "form"
+                },
+                "BrandName": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/CarImages/add": {
+      "post": {
+        "tags": [
+          "CarImages"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "formFiles": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  },
+                  "CarImageID": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "CarId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "ImagePath": {
+                    "type": "string"
+                  },
+                  "Date": {
+                    "type": "string",
+                    "format": "date-time"
+                  }
+                }
+              },
+              "encoding": {
+                "formFiles": {
+                  "style": "form"
+                },
+                "CarImageID": {
+                  "style": "form"
+                },
+                "CarId": {
+                  "style": "form"
+                },
+                "ImagePath": {
+                  "style": "form"
+                },
+                "Date": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/CarImages/delete": {
+      "delete": {
+        "tags": [
+          "CarImages"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "CarImageID": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "CarId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "ImagePath": {
+                    "type": "string"
+                  },
+                  "Date": {
+                    "type": "string",
+                    "format": "date-time"
+                  }
+                }
+              },
+              "encoding": {
+                "CarImageID": {
+                  "style": "form"
+                },
+                "CarId": {
+                  "style": "form"
+                },
+                "ImagePath": {
+                  "style": "form"
+                },
+                "Date": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/CarImages/update": {
+      "put": {
+        "tags": [
+          "CarImages"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "formFile": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "CarImageID": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "CarId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "ImagePath": {
+                    "type": "string"
+                  },
+                  "Date": {
+                    "type": "string",
+                    "format": "date-time"
+                  }
+                }
+              },
+              "encoding": {
+                "formFile": {
+                  "style": "form"
+                },
+                "CarImageID": {
+                  "style": "form"
+                },
+                "CarId": {
+                  "style": "form"
+                },
+                "ImagePath": {
+                  "style": "form"
+                },
+                "Date": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/CarImages/getall": {
+      "get": {
+        "tags": [
+          "CarImages"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/CarImages/getbycarid": {
+      "get": {
+        "tags": [
+          "CarImages"
+        ],
+        "parameters": [
+          {
+            "name": "carId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/CarImages/getbyimageid": {
+      "get": {
+        "tags": [
+          "CarImages"
+        ],
+        "parameters": [
+          {
+            "name": "imageId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Cars/getall": {
+      "get": {
+        "tags": [
+          "Cars"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Cars/add": {
+      "post": {
+        "tags": [
+          "Cars"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "CarId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "CarName": {
+                    "type": "string"
+                  },
+                  "BrandId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "ColorId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "ModelYear": {
+                    "type": "string"
+                  },
+                  "DailyPrice": {
+                    "type": "number",
+                    "format": "double"
+                  }
+                }
+              },
+              "encoding": {
+                "CarId": {
+                  "style": "form"
+                },
+                "CarName": {
+                  "style": "form"
+                },
+                "BrandId": {
+                  "style": "form"
+                },
+                "ColorId": {
+                  "style": "form"
+                },
+                "ModelYear": {
+                  "style": "form"
+                },
+                "DailyPrice": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Cars/update": {
+      "put": {
+        "tags": [
+          "Cars"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "CarId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "CarName": {
+                    "type": "string"
+                  },
+                  "BrandId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "ColorId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "ModelYear": {
+                    "type": "string"
+                  },
+                  "DailyPrice": {
+                    "type": "number",
+                    "format": "double"
+                  }
+                }
+              },
+              "encoding": {
+                "CarId": {
+                  "style": "form"
+                },
+                "CarName": {
+                  "style": "form"
+                },
+                "BrandId": {
+                  "style": "form"
+                },
+                "ColorId": {
+                  "style": "form"
+                },
+                "ModelYear": {
+                  "style": "form"
+                },
+                "DailyPrice": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Cars/delete": {
+      "delete": {
+        "tags": [
+          "Cars"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "CarId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "CarName": {
+                    "type": "string"
+                  },
+                  "BrandId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "ColorId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "ModelYear": {
+                    "type": "string"
+                  },
+                  "DailyPrice": {
+                    "type": "number",
+                    "format": "double"
+                  }
+                }
+              },
+              "encoding": {
+                "CarId": {
+                  "style": "form"
+                },
+                "CarName": {
+                  "style": "form"
+                },
+                "BrandId": {
+                  "style": "form"
+                },
+                "ColorId": {
+                  "style": "form"
+                },
+                "ModelYear": {
+                  "style": "form"
+                },
+                "DailyPrice": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Colors/getall": {
+      "get": {
+        "tags": [
+          "Colors"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Colors/getbyid": {
+      "get": {
+        "tags": [
+          "Colors"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Colors/add": {
+      "post": {
+        "tags": [
+          "Colors"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "ColorId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "ColorName": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "ColorId": {
+                  "style": "form"
+                },
+                "ColorName": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Colors/update": {
+      "put": {
+        "tags": [
+          "Colors"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "ColorId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "ColorName": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "ColorId": {
+                  "style": "form"
+                },
+                "ColorName": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Colors/delete": {
+      "delete": {
+        "tags": [
+          "Colors"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "ColorId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "ColorName": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "ColorId": {
+                  "style": "form"
+                },
+                "ColorName": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Customers/getall": {
+      "get": {
+        "tags": [
+          "Customers"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Customers/add": {
+      "post": {
+        "tags": [
+          "Customers"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "UserId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "CompanyName": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "UserId": {
+                  "style": "form"
+                },
+                "CompanyName": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Customers/update": {
+      "put": {
+        "tags": [
+          "Customers"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "UserId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "CompanyName": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "UserId": {
+                  "style": "form"
+                },
+                "CompanyName": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Customers/delete": {
+      "delete": {
+        "tags": [
+          "Customers"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "UserId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "CompanyName": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "UserId": {
+                  "style": "form"
+                },
+                "CompanyName": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Rentals/getall": {
+      "get": {
+        "tags": [
+          "Rentals"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Rentals/getbyid": {
+      "get": {
+        "tags": [
+          "Rentals"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Rentals/add": {
+      "post": {
+        "tags": [
+          "Rentals"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "RentalId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "CarId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "CustomerId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "RentDate": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "ReturnDate": {
+                    "type": "string",
+                    "format": "date-time"
+                  }
+                }
+              },
+              "encoding": {
+                "RentalId": {
+                  "style": "form"
+                },
+                "CarId": {
+                  "style": "form"
+                },
+                "CustomerId": {
+                  "style": "form"
+                },
+                "RentDate": {
+                  "style": "form"
+                },
+                "ReturnDate": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Rentals/update": {
+      "put": {
+        "tags": [
+          "Rentals"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "RentalId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "CarId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "CustomerId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "RentDate": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "ReturnDate": {
+                    "type": "string",
+                    "format": "date-time"
+                  }
+                }
+              },
+              "encoding": {
+                "RentalId": {
+                  "style": "form"
+                },
+                "CarId": {
+                  "style": "form"
+                },
+                "CustomerId": {
+                  "style": "form"
+                },
+                "RentDate": {
+                  "style": "form"
+                },
+                "ReturnDate": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Rentals/delete": {
+      "delete": {
+        "tags": [
+          "Rentals"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "RentalId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "CarId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "CustomerId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "RentDate": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "ReturnDate": {
+                    "type": "string",
+                    "format": "date-time"
+                  }
+                }
+              },
+              "encoding": {
+                "RentalId": {
+                  "style": "form"
+                },
+                "CarId": {
+                  "style": "form"
+                },
+                "CustomerId": {
+                  "style": "form"
+                },
+                "RentDate": {
+                  "style": "form"
+                },
+                "ReturnDate": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Users/getall": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Users/getbyid": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Users/add": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "UserId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "FirstName": {
+                    "type": "string"
+                  },
+                  "LastName": {
+                    "type": "string"
+                  },
+                  "Email": {
+                    "type": "string"
+                  },
+                  "Password": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "UserId": {
+                  "style": "form"
+                },
+                "FirstName": {
+                  "style": "form"
+                },
+                "LastName": {
+                  "style": "form"
+                },
+                "Email": {
+                  "style": "form"
+                },
+                "Password": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Users/update": {
+      "put": {
+        "tags": [
+          "Users"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "UserId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "FirstName": {
+                    "type": "string"
+                  },
+                  "LastName": {
+                    "type": "string"
+                  },
+                  "Email": {
+                    "type": "string"
+                  },
+                  "Password": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "UserId": {
+                  "style": "form"
+                },
+                "FirstName": {
+                  "style": "form"
+                },
+                "LastName": {
+                  "style": "form"
+                },
+                "Email": {
+                  "style": "form"
+                },
+                "Password": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Users/delete": {
+      "delete": {
+        "tags": [
+          "Users"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "UserId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "FirstName": {
+                    "type": "string"
+                  },
+                  "LastName": {
+                    "type": "string"
+                  },
+                  "Email": {
+                    "type": "string"
+                  },
+                  "Password": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "UserId": {
+                  "style": "form"
+                },
+                "FirstName": {
+                  "style": "form"
+                },
+                "LastName": {
+                  "style": "form"
+                },
+                "Email": {
+                  "style": "form"
+                },
+                "Password": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Brand": {
+        "type": "object",
+        "properties": {
+          "brandId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "brandName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

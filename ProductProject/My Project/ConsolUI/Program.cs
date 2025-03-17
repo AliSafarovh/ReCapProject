@@ -26,7 +26,7 @@ namespace ConsoleUI
             //{
             //    Console.WriteLine(result.Message);
             //}
-            
+
             #region Validators
 
             //Cross Custing Concerns
@@ -58,28 +58,28 @@ namespace ConsoleUI
             //}
 
             //Eger Validation dan kecdise try ile continue et ve sonda finally mesaji yolla
-        //    var isSuccess = true;
-        //    OnBefore(invocation);   Metodu ise sal
-        //    try
-        //    {
-        //        invocation.Proceed();    metod isledi
-        //    }
-        //    catch (Exception e)
-        //    {
-        //        isSuccess = false;
-        //        OnException(invocation, e);
-        //        throw;
-        //    }
-        //    finally
-        //    {
-        //        if (isSuccess)
-        //        {
-        //            OnSuccess(invocation);  succsees ver
-        //        }
-        //    }
-        //    OnAfter(invocation);
-        //}
-        #endregion
+            //    var isSuccess = true;
+            //    OnBefore(invocation);   Metodu ise sal
+            //    try
+            //    {
+            //        invocation.Proceed();    metod isledi
+            //    }
+            //    catch (Exception e)
+            //    {
+            //        isSuccess = false;
+            //        OnException(invocation, e);
+            //        throw;
+            //    }
+            //    finally
+            //    {
+            //        if (isSuccess)
+            //        {
+            //            OnSuccess(invocation);  succsees ver
+            //        }
+            //    }
+            //    OnAfter(invocation);
+            //}
+            #endregion
 
 
 
