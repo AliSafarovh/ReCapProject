@@ -1,6 +1,0 @@
-C:\Users\samun\Desktop\API-Projects\nArchitectureDemo\src\corePackages\CorePackages\Core.Application\obj\Debug\net8.0\Core.Application.csproj.AssemblyReference.cache
-C:\Users\samun\Desktop\API-Projects\nArchitectureDemo\src\corePackages\CorePackages\Core.Application\obj\Debug\net8.0\Core.Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\samun\Desktop\API-Projects\nArchitectureDemo\src\corePackages\CorePackages\Core.Application\obj\Debug\net8.0\Core.Application.AssemblyInfoInputs.cache
-C:\Users\samun\Desktop\API-Projects\nArchitectureDemo\src\corePackages\CorePackages\Core.Application\obj\Debug\net8.0\Core.Application.AssemblyInfo.cs
-C:\Users\samun\Desktop\API-Projects\nArchitectureDemo\src\corePackages\CorePackages\Core.Application\obj\Debug\net8.0\Core.Application.csproj.CoreCompileInputs.cache
-C:\Users\samun\Desktop\API-Projects\nArchitectureDemo\src\corePackages\CorePackages\Core.Application\obj\Debug\net8.0\Core.Application.sourcelink.json
